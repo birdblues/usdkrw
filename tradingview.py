@@ -1,6 +1,8 @@
 import streamlit as st
 from streamlit_lightweight_charts import renderLightweightCharts
 
+st.set_page_config(layout="wide", page_title="USDKRW", page_icon=":taxi:")
+
 import json
 import numpy as np
 import yfinance as yf
